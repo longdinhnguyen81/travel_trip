@@ -9432,7 +9432,7 @@ img {
 .trg-flight-section-airline-logo {
 	display: block;
 	max-width: 100%;
-	max-height: 100px;
+	max-height: 80px;
 	top: 50%;
 	left: 50%;
 	position: absolute;
@@ -9523,7 +9523,7 @@ img {
 	-moz-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
+	transform: none;
 }
 .trg-flight-section-path-icon {
 	margin-bottom: 9px;
