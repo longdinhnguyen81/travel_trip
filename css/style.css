@@ -7997,9 +7997,9 @@ contact-pg-section
 }
 .booking-section .table td, .booking-section .table th {
 	padding: 8px;
-	vertical-align: top;
+	vertical-align: center;
 	border-top: none;
-	font-size: 14px;
+	font-size: 16px;
 }
 .bookex {
 	color:#ffcd22;
@@ -8052,9 +8052,9 @@ contact-pg-section
 	margin-bottom: 0;
 }
 .login-area .Booking-box {
-	border-top: 3px solid #ffcd22 !important;
+	border-top: 5px solid #ffcd22 !important;
 	box-shadow:none;
-	border: 1px solid #eee;
+	border: 1px solid #777;
 }
 .thanksYou .cardInfo {
 	margin: 0;
@@ -10492,5 +10492,8 @@ h2.title {
 	.trip-location{
 		font-size:18px;
 		font-weight:500
+	}
+	.login-area .login-box{
+		padding:10px;
 	}
 }
