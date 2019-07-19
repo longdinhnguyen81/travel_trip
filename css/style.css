@@ -1014,6 +1014,9 @@ Banner1 Area CSS
 	background: none 65% 0% / cover no-repeat;
 	z-index: 0;
 }
+.height-500 {
+	height: 500px;
+}
 .height-700 {
 	height: 700px;
 }
@@ -1065,12 +1068,17 @@ Banner1 Area CSS
 figure {
 	margin: 0 0 1rem;
 }
+.color-grad{
+	color: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+}
 .bg-grad {
+	/*
 	background: -moz-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #97c74e), color-stop(100%, #2ab9a5));
 	background: -webkit-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
 	background: -o-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
 	background: -ms-linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+	*/
 	background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two', GradientType=1 );
 }
@@ -1155,7 +1163,7 @@ figure {
 	position: relative;
 }
 .mt-lg-n9, .my-lg-n9 {
-	margin-top: -153px !important;
+	margin-top: -100px !important;
 }
 /*Fun begins*/
 .tab_container {
@@ -1186,13 +1194,13 @@ figure {
 	font-size: 18px;
 	display: block;
 	float: left;
-	width: 20%;
+	width: 100%;
 	padding: 1em;
 	color: #fff;
 	cursor: pointer;
 	text-decoration: none;
 	text-align: center;
-	background: rgba(0, 0, 0, 0.4);
+	background: #ddd;
 }
  #tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4, #tab5:checked ~ #content5 {
  display: block;
@@ -1209,7 +1217,7 @@ background: #fff;
 	text-align: center;
 }
  .tab_container [id^="tab"]:checked + label {
- background: rgba(255, 255, 255, 0.4);
+ background: rgba(255, 255, 255, 1);
  box-shadow: inset 0 3px #5bc9e2;
 }
  .tab_container [id^="tab"]:checked + label i {
@@ -1228,7 +1236,7 @@ label .fa {
 /*Media query*/
 @media only screen and (max-width: 930px) {
  label span {
- font-size: 14px;
+ font-size: 20px;
 }
  label .fa {
  font-size: 14px;
@@ -1949,13 +1957,14 @@ h5.mb-3 {
 }
 /* background color */
 .bg-grad {
+	/*
 	background: -moz-linear-gradient(150deg, #ffcd22 0%, #ffcd22 100%);
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffcd22), color-stop(100%, #ffcd22));
 	background: -webkit-linear-gradient(150deg, #ffcd22 0%, #ffcd22 100%);
 	background: -o-linear-gradient(150deg, #ffcd22 0%, #ffcd22 100%);
 	background: -ms-linear-gradient(150deg, #ffcd22 0%, #ffcd22 100%);
 	background: linear-gradient(150deg, #ffcd22 0%, #ffcd22 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two', GradientType=1 );*/
 }
 .bg-dark-grad {
 	background: -moz-linear-gradient(150deg, #343a40 0%, #626d78 100%);
@@ -4863,7 +4872,7 @@ a.blist:hover {
 }
 p.subtitle {
 	color: #5bc9e2 !important;
-	font-size: 12px;
+	font-size: 16px;
 }
 .Blog-list .shadow {
  transition: .4s;
@@ -10397,4 +10406,28 @@ h6.subtitle {
 }
 h2.title {
 	font-size:24px !important;
+}
+
+.title-small {
+    color: #236200;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.title-big {
+    color: #333;
+    font-size: 26px;
+    font-weight: 600;
+}
+.title-big:after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    background-color: #236200;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
