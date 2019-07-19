@@ -10432,3 +10432,65 @@ h2.title {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.box-trip{
+	margin-top:20px;
+	margin-left:5px; 
+	margin-right:5px;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	background-color:#fff;
+}
+.trip-time-start{
+	font-size:20px;
+	font-weight:600
+}
+.trip-location{
+	padding-left:20px;
+	font-size:17px;
+	font-weight:500
+}
+.trip-brand{
+	padding-left:10px;
+	color:#f50;
+	font-size:18px;
+	font-weight:500;
+}
+.trip-brand-icon{
+	color:#f00;
+}
+.trip-price{
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1C6EA4;
+    font-size:27px;
+    font-weight:600
+}
+.trip-price-d{
+	color:#1C6EA4;
+	font-size:12px;
+	font-weight:500;
+}
+.trip-button-book{
+	border: 1px dotted #1C6EA4;
+	border-radius: 14px;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size:17px;
+    font-weight:500
+}
+ @media (max-width: 576px) {
+ 	.trip-time-start{
+ 		font-size:20px;
+		font-weight:600;
+	}
+	.trip-location{
+		font-size:18px;
+		font-weight:500
+	}
+}

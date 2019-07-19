@@ -277,12 +277,12 @@
   <div class="container">
     <div class="row all-text-white">
       <div class="col-md-12 align-self-center">
-        <h1 class="innerpage-title">Flight List</h1>
-        <h6 class="subtitle">Fusce iaculis ex sed nulla commodo imperdiet. Proin sed rhoncus ligula.</h6>
+        <h1 class="innerpage-title">Kết quả tìm kiếm vé tàu Lý Sơn Sa Kỳ</h1>
+        <p class="subtitle">Đặt vé tàu online cảng sa kỳ đi Lý Sơn trong vòng 5 phút</p>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item active"><a href="index.html"><i class="ti-home"></i> Home</a></li>
-            <li class="breadcrumb-item">Flight List</li>
+            <li class="breadcrumb-item active"><a href="index.html"><i class="ti-home"></i>Trang Chủ</a></li>
+            <li class="breadcrumb-item">Tìm kiếm vé tàu</li>
           </ol>
         </nav>
       </div>
@@ -297,15 +297,24 @@
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="Filter-left">
+          <h2>Tìm kiếm vé tàu đi Lý Sơn Online</h2>
           <form action="#" autocomplete="off" >
             <div class="mb-left">
-              <label for="form_dates" class="form-label">Dates</label>
+              <label for="form_type" class="form-label">Lựa chọn chuyến đi</label>
+              <select class="custom-select select-big ">
+                <option value="type_0">Entire place </option>
+                <option value="type_1">Private room </option>
+                <option value="type_2">Shared room </option>
+              </select>
+            </div>
+            <div class="mb-left">
+              <label for="form_dates" class="form-label">Ngày đi</label>
               <div class="form-group">
                 <input class="form-control" type="text" id="datepicker" autocomplete="off" placeholder="Choose your dates">
               </div>
             </div>
             <div class="mb-left">
-              <label for="form_guests" class="form-label">Guests</label>
+              <label for="form_guests" class="form-label">Số ghế</label>
               <select class="custom-select select-big ">
                 <option selected="">Guests</option>
                 <option value="guests_0">01 </option>
@@ -315,1039 +324,106 @@
                 <option value="guests_4">05 </option>
               </select>
             </div>
-            <div class="mb-left">
-              <label for="form_type" class="form-label">Home type</label>
-              <select class="custom-select select-big ">
-                <option value="type_0">Entire place </option>
-                <option value="type_1">Private room </option>
-                <option value="type_2">Shared room </option>
-              </select>
-            </div>
-            <div class="mb-left">
-              <label class="form-label">Price range</label>
-              <div class="range-slider">
-                <input type="range" value="150" min="0" max="500" range="true">
-                <span class="range-value">150</span> </div>
-            </div>
-            <div class="mb-left">
-              <label class="form-label">Host and booking</label>
-              <ul class="list-inline mb-0 mt-1">
-                <li class="list-inline-item">
-                  <div class="custom-control custom-switch">
-                    <input id="instantBook" type="checkbox" class="custom-control-input">
-                    <label for="instantBook" class="custom-control-label"> <span class="text-sm">Instant book</span></label>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="custom-control custom-switch">
-                    <input id="superhost" type="checkbox" class="custom-control-input">
-                    <label for="superhost" class="custom-control-label"> <span class="text-sm">Superhost</span></label>
-                  </div>
-                </li>
-              </ul>
-            </div>
             <div class="pb-left">
               <div id="moreFilters" class="collapse show">
-                <div class="filter-block">
-                  <h6 class="mb-3">Location</h6>
-                  <div class="form-group">
-                    <label for="form_neighbourhood" class="form-label">Neighbourhood</label>
-                    <select class="custom-select select-big mb-3">
-                      <option value="neighbourhood_0">Battery Park City </option>
-                      <option value="neighbourhood_1">Bowery </option>
-                      <option value="neighbourhood_2">Carnegie Hill </option>
-                      <option value="neighbourhood_3">Central Park </option>
-                      <option value="neighbourhood_4">Chelsea </option>
-                      <option value="neighbourhood_5">Chinatown </option>
-                      <option value="neighbourhood_6">Civic Center </option>
-                      <option value="neighbourhood_7">East Harlem </option>
-                      <option value="neighbourhood_8">Financial District </option>
-                      <option value="neighbourhood_9">Flatiron </option>
-                      <option value="neighbourhood_10">Garment District </option>
-                      <option value="neighbourhood_11">Gramercy Park </option>
-                      <option value="neighbourhood_12">Greenwich Village </option>
-                      <option value="neighbourhood_13">East Village </option>
-                      <option value="neighbourhood_14">West Village </option>
-                      <option value="neighbourhood_15">Hamilton Heights </option>
-                      <option value="neighbourhood_16">Harlem </option>
-                      <option value="neighbourhood_17">Hell's Kitchen / Clinton </option>
-                      <option value="neighbourhood_18">Inwood </option>
-                      <option value="neighbourhood_19">Kips Bay </option>
-                      <option value="neighbourhood_20">Lenox Hill </option>
-                      <option value="neighbourhood_21">Little Italy </option>
-                      <option value="neighbourhood_22">Lower Eastside </option>
-                      <option value="neighbourhood_23">Madison Square </option>
-                      <option value="neighbourhood_24">Manhattan Valley </option>
-                      <option value="neighbourhood_25">Meatpacking District </option>
-                      <option value="neighbourhood_26">Midtown </option>
-                      <option value="neighbourhood_27">Morningside Heights </option>
-                      <option value="neighbourhood_28">Murray Hill </option>
-                      <option value="neighbourhood_29">NoHo </option>
-                      <option value="neighbourhood_30">NoLita </option>
-                      <option value="neighbourhood_31">Roosevelt Island </option>
-                      <option value="neighbourhood_32">SoHo </option>
-                      <option value="neighbourhood_33">Stuyvesant Town (Stuyvesant Square) </option>
-                      <option value="neighbourhood_34">Sutton Place </option>
-                      <option value="neighbourhood_35">Times Square </option>
-                      <option value="neighbourhood_36">Tribeca </option>
-                      <option value="neighbourhood_37">Turtle Bay </option>
-                      <option value="neighbourhood_38">Upper Eastside </option>
-                      <option value="neighbourhood_39">Upper Westside </option>
-                      <option value="neighbourhood_40">Washington Heights </option>
-                      <option value="neighbourhood_41">Yorkville </option>
-                    </select>
-                  </div>
-                  <div class="form-group mb-0">
-                    <label class="form-label">Neighbourhood Tag</label>
-                    <ul class="list-inline mt-xl-1 mb-0">
-                      <li class="list-inline-item">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" id="type_0" name="type[]" class="custom-control-input">
-                          <label for="type_0" class="custom-control-label">Hipster </label>
-                        </div>
-                      </li>
-                      <li class="list-inline-item">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" id="type_1" name="type[]" class="custom-control-input">
-                          <label for="type_1" class="custom-control-label">Business </label>
-                        </div>
-                      </li>
-                      <li class="list-inline-item">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" id="type_2" name="type[]" class="custom-control-input">
-                          <label for="type_2" class="custom-control-label">Family </label>
-                        </div>
-                      </li>
-                      <li class="list-inline-item">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" id="type_3" name="type[]" class="custom-control-input">
-                          <label for="type_3" class="custom-control-label">Green </label>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="filter-block">
-                  <h6 class="mb-3">Rooms and beds</h6>
-                  <div class="form-group ">
-                    <label class="form-label">Beds</label>
-                    <div class="d-flex align-items-center"> <span class="input-number-decrement">–</span>
-                      <input class="input-number" type="text" value="1" min="0" max="10">
-                      <span class="input-number-increment">+</span> </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="form-label">Bedrooms</label>
-                    <div class="d-flex align-items-center"> <span class="input-number-decrement">–</span>
-                      <input class="input-number" type="text" value="1" min="0" max="10">
-                      <span class="input-number-increment">+</span> </div>
-                  </div>
-                  <div class="form-group mb-0">
-                    <label class="form-label">Bathrooms</label>
-                    <div class="d-flex align-items-center"> <span class="input-number-decrement">–</span>
-                      <input class="input-number" type="text" value="1" min="0" max="10">
-                      <span class="input-number-increment">+</span> </div>
-                  </div>
-                </div>
-                <div class="filter-block">
-                  <h6 class="mb-3">Trip type</h6>
-                  <div class="form-group mb-0">
-                    <div class="custom-control custom-switch">
-                      <input id="forfamilies" type="checkbox" name="forfamilies" aria-describedby="forfamiliesHelp" class="custom-control-input">
-                      <label for="forfamilies" class="custom-control-label"> <span class="text-sm">For Families</span></label>
-                    </div>
-                  </div>
-                  <div class="form-group mb-0">
-                    <div class="custom-control custom-switch">
-                      <input id="forwork" type="checkbox" name="forwork" aria-describedby="forworkHelp" class="custom-control-input">
-                      <label for="forwork" class="custom-control-label"> <span class="text-sm">For work</span></label>
-                    </div>
-                  </div>
-                </div>
-                <div class="filter-block">
-                  <h6 class="mb-3">Amenities</h6>
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_0" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_0" class="custom-control-label">Kitchen </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_1" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_1" class="custom-control-label">Shampoo </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_2" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_2" class="custom-control-label">Heating </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_3" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_3" class="custom-control-label">Air conditioning </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_4" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_4" class="custom-control-label">Washer </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_5" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_5" class="custom-control-label">Dryer </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_6" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_6" class="custom-control-label">Wifi </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_7" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_7" class="custom-control-label">Breakfast </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_8" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_8" class="custom-control-label">Indoor fireplace </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_9" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_9" class="custom-control-label">Buzzer/wireless intercom </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_10" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_10" class="custom-control-label">Doorman </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_11" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_11" class="custom-control-label">Hangers </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_12" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_12" class="custom-control-label">Iron </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_13" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_13" class="custom-control-label">Hair dryer </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="amenities_14" name="amenities[]" class="custom-control-input">
-                        <label for="amenities_14" class="custom-control-label">Laptop friendly workspace </label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="filter-block">
-                  <h6 class="mb-3">Facilities</h6>
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="facilities_0" name="facilities[]" class="custom-control-input">
-                        <label for="facilities_0" class="custom-control-label">Free parking on premises </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="facilities_1" name="facilities[]" class="custom-control-input">
-                        <label for="facilities_1" class="custom-control-label">Gym </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="facilities_2" name="facilities[]" class="custom-control-input">
-                        <label for="facilities_2" class="custom-control-label">Hot tub </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" id="facilities_3" name="facilities[]" class="custom-control-input">
-                        <label for="facilities_3" class="custom-control-label">Pool </label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
               </div>
               <div class="mb-left">
-                <button type="submit" class="btn btn-primary btn-grad FilterBtn"> <i class="fas fa-filter mr-1"></i>Filter </button>
+                <button type="submit" class="btn bg-grad btn-grad FilterBtn"> <i class="fas fa-filter mr-1"></i>Tìm kiếm</button>
               </div>
             </div>
           </form>
         </div>
+        <div class="pt20">
+          <img src="images/banner-quang-cao.jpg" class="img-fluid" alt="" >
+        </div>
       </div>
       <div class="col-lg-8 col-md-8 col-sm-12">
-        <div class="resultBar barSpaceAdjust">
-          <h2>Tìm thấy 10 chuyến tàu trong ngày 18-07-2019</h2>
+        <div class="resultBar pt10">
+          <h3 class="txt-20">Tìm thấy 10 chuyến tàu trong ngày 18-07-2019</h3>
         </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-12 p-0">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/anvinhexpress.png" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:00 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Cảng Sa Kỳ</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-4 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>178.000</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:35 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Đảo Lý Sơn</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-2 p-0">
-                                      <div class="trg-book">
-                                        <a class="btn btn-block trg-price-btn btn-booking" href="#">Đặt vé</a> </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">An Vĩnh Express</h5>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">18h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">18h30</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu An Vĩnh Express 1</span></p>
           </div>
-		  
-		  
-		  
-         <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-12 p-0">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/anvinhexpress.png" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:00 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Cảng Sa Kỳ</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-4 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>178.000</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:35 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Đảo Lý Sơn</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-2 p-0">
-                                      <div class="trg-book">
-                                        <a class="btn btn-block trg-price-btn btn-booking" href="#">Đặt vé</a> </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">An Vĩnh Express</h5>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">170,000<span class="trip-price-d">đ</span></p>
           </div>
-		  
-		  
-		  
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-12 p-0">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/anvinhexpress.png" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:00 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Cảng Sa Kỳ</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-4 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>178.000</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:35 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Đảo Lý Sơn</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-2 p-0">
-                                      <div class="trg-book">
-                                        <a class="btn btn-block trg-price-btn btn-booking" href="#">Đặt vé</a> </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">An Vĩnh Express</h5>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
           </div>
-		  
-		  
-		  
-	          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-12 p-0">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/anvinhexpress.png" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:00 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Cảng Sa Kỳ</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-4 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>178.000</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:35 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Đảo Lý Sơn</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-2 p-0">
-                                      <div class="trg-book">
-                                        <a class="btn btn-block trg-price-btn btn-booking" href="#">Đặt vé</a> </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">An Vĩnh Express</h5>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-		  
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-12 p-0">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/superbiendong.png" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:00 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Cảng Sa Kỳ</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-4 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>178.000</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-ship trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">08:35 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Đảo Lý Sơn</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-2 p-0">
-                                      <div class="trg-book">
-                                        <a class="btn btn-block trg-price-btn btn-booking" href="#">Đặt vé</a> </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Super Biển Đông</h5>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-		  
-		  
-		  
-		  
-		  
-	          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>	  
-		  
-		  
-	          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>	  
-		  
-		  
-	          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>	  
-		  
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>		  
-		  
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>		  
-	          <div class="col-lg-12 col-md-12 col-sm-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="trg _mb-10 _b-n trg-rounded trg-">
-                  <div class="trg-preview"> <a class="trg-mask-link"></a>
-                    <div class="row" data-gutter="20">
-                      <div class="col-md-10 ">
-                        <div class="trg-flight-sections">
-                          <div class="trg-flight-section">
-                            <div class="row row-no-gutter row-eq-height">
-                              <div class="col-md-2 ">
-                                <div class="trg-flight-section-airline-logo-wrap"> <img class="trg-flight-section-airline-logo" src="images/flight/delta.jpg" alt="Image Alternative text" title="Image Title"> </div>
-                              </div>
-                              <div class="col-md-10 ">
-                                <div class="trg-flight-section-item">
-                                  <div class="row">
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">02:10 <span>pm</span> </p>
-                                        <p class="trg-flight-section-meta-city">Canada</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 ">
-                                      <div class="trg-flight-section-path">
-                                        <div class="trg-flight-section-path-fly-time">
-                                          <p>20h 0m</p>
-                                        </div>
-                                        <div class="trg-flight-section-path-line"></div>
-                                        <div class="trg-flight-section-path-line-start"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">CLY</div>
-                                        </div>
-                                        <div class="trg-flight-section-path-line-end"> <i class="fa fa-plane trg-flight-section-path-icon"></i>
-                                          <div class="trg-flight-section-path-line-dot"></div>
-                                          <div class="trg-flight-section-path-line-title">LGA</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                      <div class="trg-flight-section-meta">
-                                        <p class="trg-flight-section-meta-time">10:20 <span>am</span> </p>
-                                        <p class="trg-flight-section-meta-city">Paris</p>
-                                        <p class="trg-flight-section-meta-date">Feb 12, 2019</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <h5 class="trg-flight-section-airline-title">Indianapolis to Paris</h5>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2 ">
-                        <div class="trg-book">
-                          <div class="trg-price">
-                            <p class="trg-price-tag">$230</p>
-                            <p class="trg-price-sign">Business</p>
-                          </div>
-                          <a class="btn btn-primary-inverse btn-block trg-price-btn" href="#">Book Now</a> </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>	  
         </div>
-        <div class="paginationCommon blogPagination categoryPagination">
-          <nav aria-label="Page navigation">
-            <ul class="pagination">
-              <li> <a href="#" aria-label="Previous"> <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span> </a> </li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li> <a href="#" aria-label="Next"> <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> </li>
-            </ul>
-          </nav>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">19h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">19h35</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu Super biển đông 1</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">168,000<span class="trip-price-d">đ</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
+          </div>
+        </div>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">18h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">18h30</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu An Vĩnh Express 1</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">170,000<span class="trip-price-d">đ</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
+          </div>
+        </div>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">19h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">19h35</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu Super biển đông 1</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">168,000<span class="trip-price-d">đ</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
+          </div>
+        </div>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">18h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">18h30</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu An Vĩnh Express 1</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">170,000<span class="trip-price-d">đ</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
+          </div>
+        </div>
+        <!-- Item vé tàu-->
+        <div class="row box-trip">
+          <div class="col-12 col-sm-6 col-md-6">
+            <p><span class="trip-time-start">19h00</span><span class="trip-location">Đảo Lý Sơn</span></p>
+            <p><span class="trip-time-start">19h35</span><span class="trip-location">Cảng Sa Kỳ</span></p>
+            <p><i class="fas fa-location-arrow trip-brand-icon"></i><span class="trip-brand">Tàu Super biển đông 1</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <p class="trip-price">168,000<span class="trip-price-d">đ</span></p>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 p10">
+              <a href="#" class="bg-grad trip-button-book">Chọn vé</a>
+          </div>
         </div>
       </div>
     </div>
@@ -1356,17 +432,43 @@
 
 <!-- =======================
 	newsletter -->
-<section class="bg-light pattern-overlay-1-dark">
-  <div class="container">
-    <div class="col-md-12 col-lg-9 mx-auto p-4 p-sm-5">
-      <div class="text-center px-0 px-sm-5">
-        <p class="mb-3 lead">21,215+ Hotel and Resorts Available!</p>
-        <form>
-          <div class="input-group px-0 px-md-5">
-            <input class="form-control border-radius-right-0 border-right-0 bg-transparent" type="text" name="search" placeholder="Enter destination">
-            <button type="button" class="btn btn-grad mb-0 border-radius-left-0"> <span class=" d-md-block">Search now</span> <span class="d-md-none"><i class="fab fa-paper-plane-o m-0"></i></span> </button>
-          </div>
-        </form>
+<!-- Hướng dẫn đặt vé -->
+<section class="pt80 pb80" style="background-color:#fdfdfd">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center mb-5">
+        <h2 class="title text-center">Đặt vé tàu du lịch Lý Sơn dễ dàng</h2>
+        <p>Để du lịch Lý Sơn, các bạn cần đặt trước vé tàu để có thể ra vào đảo. Tại đây chưa đến 5p, các bạn đã có ngay vé tàu của riêng mình để đi du lịch Lý Sơn. Lưu ý nên đặt vé trước 3 ngày để đảm bảo còn vé du lịch</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="feature-box h-100 text-center px-4 py-5">
+          <div class="feature-box-icon"><img class="w-25" src="images/tour/check-mark.svg" alt=""></div>
+          <h3 class="feature-box-title">1. Chọn vé tàu</h3>
+          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet purus</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature-box h-100 text-center all-text-white bg-grad px-4 py-5 border-radius-3" style="background-color:#5bc9c2!important">
+          <div class="feature-box-icon"><img class="w-25" src="images/tour/editor.svg" alt=""></div>
+          <h3 class="feature-box-title">2. Điền thông tin</h3>
+          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature-box h-100 text-center px-4 py-5">
+          <div class="feature-box-icon"><img class="w-25" src="images/tour/envelope.svg" alt=""></div>
+          <h3 class="feature-box-title">3. Thanh toán</h3>
+          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet </p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="feature-box h-100 text-center all-text-white bg-grad px-4 py-5 border-radius-3">
+          <div class="feature-box-icon"><img class="w-25" src="images/tour/editor.svg" alt=""></div>
+          <h3 class="feature-box-title">4. Nhận vé Online</h3>
+          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet</p>
+        </div>
       </div>
     </div>
   </div>
