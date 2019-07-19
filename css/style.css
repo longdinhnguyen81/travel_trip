@@ -7717,7 +7717,7 @@ contact-pg-section
 	color:#F9B90F;
 }
 .TravelGo-category-content {
-	padding: 20px;
+	padding: 20px 0 20px 20px;
 	z-index: 2;
 }
 .fl-wrap {
