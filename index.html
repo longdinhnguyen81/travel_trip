@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,36 +15,11 @@
 <link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
 <link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
 <title>TravelGo - Travel, Tour Booking HTML5 Template</title>
-
-<style>
-a.btn-action {
-    background: #222;
-    color: #fff;
-    padding: 9px 13px;
-    margin: 0 0 0 15px;
-}
-</style>
+</head>
+<body>
 <!-- =======================
 	header Start-->
-<header class="header-static navbar-sticky navbar-light shadow"> 
-  <!-- Search -->
-  <div class="top-search collapse bg-light" id="search-open" data-parent="#search">
-    <div class="container">
-      <div class="row position-relative">
-        <div class="col-md-8 mx-auto py-5">
-          <form>
-            <div class="input-group">
-              <input class="form-control border-radius-right-0 border-right-0" type="text" name="search" autofocus placeholder="What are you looking for?">
-              <button type="button" class="btn btn-grad border-radius-left-0 mb-0">Search</button>
-            </div>
-          </form>
-          <p class="small mt-2 mb-0"><strong>e.g.</strong>Template, TravelGo, WordPress </p>
-        </div>
-        <a class="position-absolute top-0 right-0 mt-3 mr-3" data-toggle="collapse" href="#search-open"><i class="fas fa-window-close"></i></a> </div>
-    </div>
-  </div>
-  <!-- End Search --> 
-  
+<header class="header-static navbar-sticky navbar-light shadow">   
   <!-- Navbar top start-->
   <div class="navbar-top d-none d-lg-block">
     <div class="container">
@@ -61,15 +35,15 @@ a.btn-action {
           <!-- Top info -->
           <ul class="nav list-unstyled ml-3">
             <li class="nav-item mr-3"> <a class="navbar-link" href="#"><strong>Phone:</strong> (024) 123-1457</a> </li>
-            <li class="nav-item mr-3"> <a class="navbar-link" href="#"><strong>Email:</strong> help@TravelGo.com</a> </li>
+            <li class="nav-item mr-3"> <a class="navbar-link" href="#"><strong>Email:</strong> help@izicar.vn</a> </li>
           </ul>
         </div>
         
         <!-- navbar top Right-->
         <div class="d-flex align-items-center"> 
           <!-- Top Account -->
-          <div class="dropdown"> <a class="dropdown-toggle" href="#" role="button" id="dropdownAccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-user mr-2"></i>Account </a>
-            <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownAccount"> <a class="dropdown-item" href="sign-in.html">Log In</a> <a class="dropdown-item" href="sign-up.html">Register</a> <a class="dropdown-item" href="#">Settings</a> </div>
+          <div class="dropdown"> <a class="dropdown-toggle" href="#" role="button" id="dropdownAccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-user mr-2"></i>Tài khoản </a>
+            <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownAccount"> <a class="dropdown-item" href="sign-in.html">Đăng nhập</a> <a class="dropdown-item" href="sign-up.html">Đăng ký</a></div>
           </div>
           <!-- top link -->
           <ul class="nav">
@@ -99,54 +73,24 @@ a.btn-action {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <!-- Menu item 1 Demos-->
-          <li class="nav-item dropdown active"> <a class="nav-link" href="#" id="demosMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Giới thiệu</a>
-          </li>
-          <li class="nav-item dropdown"> <a class="nav-link" href="#" id="docMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Đặt Khách sạn</a></li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="docMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Đặt vé tàu</a>
+          <li class="nav-item"> <a class="nav-link" href="#">Giới thiệu</a></li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="docMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hướng dẫn</a>
             <ul class="dropdown-menu" aria-labelledby="docMenu">
-              <li><a class="dropdown-item" href="flight-index.html">Home Flights</a></li>
-              <li><a class="dropdown-item" href="flight-list-view.html">List View</a></li>
-              <li><a class="dropdown-item" href="flight-grid-view.html">Grid View</a></li>
-              <li><a class="dropdown-item" href="flight-detailed.html">Detailed</a></li>
-              <li><a class="dropdown-item" href="flight-booking.html">Booking</a></li>
-              <li><a class="dropdown-item" href="flight-thankyou.html">Thank You</a></li>
+              <li><a class="dropdown-item" href="#">Hướng dẫn đặt xe</a></li>
+              <li><a class="dropdown-item" href="#">Hướng dẫn đăng chuyển xe</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="docMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thuê xe</a>
-            <ul class="dropdown-menu" aria-labelledby="docMenu">
-              <li><a class="dropdown-item" href="car-index.html">Home Cars</a></li>
-              <li><a class="dropdown-item" href="car-list-view.html">List View</a></li>
-              <li><a class="dropdown-item" href="car-grid-view.html">Grid View</a></li>
-              <li><a class="dropdown-item" href="car-detailed.html">Detailed</a></li>
-              <li><a class="dropdown-item" href="car-booking.html">Booking</a></li>
-              <li><a class="dropdown-item" href="car-thankyou.html">Thank You</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="docMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dịch vụ trên đảo</a>
-            <ul class="dropdown-menu" aria-labelledby="docMenu">
-              <li><a class="dropdown-item" href="cruise-index.html">Home Cruises</a></li>
-              <li><a class="dropdown-item" href="cruise-list-view.html">List View</a></li>
-              <li><a class="dropdown-item" href="cruise-grid-view.html">Grid View</a></li>
-              <li><a class="dropdown-item" href="cruise-detailed.html">Detailed</a></li>
-              <li><a class="dropdown-item" href="cruise-booking.html">Booking</a></li>
-              <li><a class="dropdown-item" href="cruise-thankyou.html">Thank You</a></li>
-            </ul>
-          </li>
-          
-          <!-- Menu item 5 Elements-->
-          <li class="nav-item dropdown megamenu"> <a class="nav-link dropdown-toggle" href="#" id="elementsMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin tức</a>
-          </li>
-          <!-- Menu item 6 Docs--> 
-          
+          <li class="nav-item"> <a class="nav-link" href="#">FAQs</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Tin tức</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Liên hệ</a></li>
+          <li class="nav-item"> <a class="nav-link btn btn-grad shadow btn-menu" href="thong-tin-tai-xe.html">Đăng chuyến xe</a></li>
         </ul>
       </div>
       <!-- Main Menu End --> 
       <!-- Header Extras Start-->
       <div class="navbar-nav"> 
         <!-- extra item Search-->
-        <div class="nav-item search border-0 pl-3 pr-0 px-lg-2" id="search"> <a class="nav-link" data-toggle="collapse" href="#search-open"><i class="fas fa-search"></i></a> </div>
-        <!-- extra item Btn-->
-        <div class="nav-item border-0 d-none d-lg-inline-block align-self-center"> <a href="#" class=" btn btn-sm btn-grad text-white mb-0">Online Booking</a> </div>
+        
       </div>
       <!-- Header Extras End--> 
     </div>
@@ -158,8 +102,14 @@ a.btn-action {
 
 <!-- =======================
 	Main Banner -->
-<section class="p-0 height-500 parallax-bg" style="background:url(images/banner/banner-01.png) no-repeat 100% 0%; background-size:cover;">
+<!-- <section class="p-0 height-500 parallax-bg" style="background:url(images/banner/banner-01.png) no-repeat 100% 0%; background-size:cover;">
+ e <h1>Hello</h1>
+</section> -->
+
+<section>
+  <img style="width:100%" class="img-fluid" src = "images/banner/banner-01.png">
 </section>
+
 <!-- =======================
 	Main banner -->
 
@@ -172,13 +122,24 @@ a.btn-action {
         <div class="feature-box h-100">
           <div class="tab_container">
             <input id="tab1" type="radio" name="tabs" checked>
-            <label class="pb0" for="tab1"><span class="txt-30 primary-color">ĐẶT VÉ TÀU DU LỊCH LÝ SƠN</span></label>
-            <section id="content1" class="tab-content">
+            <section id="content1" class="tab-content bg-grad">
               <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 padding8">
+                <div class="col-12">
+                  <h1 style="text-align: center; color:#fff; padding-bottom:10px;">IZICAR.VN nền tảng tìm xe ké khi đi du lịch</h1>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-6 col-xs-12 padding8">
                   <div class="form-group"> <span class="fas fa-map-marker-alt"></span>
                     <select class="custom-select select-big pl32 txt-14">
-                      <option selected="">Lựa chọn chuyến đi</option>
+                      <option selected="">Địa điểm đi (tỉnh, thành phố)</option>
+                      <option value="location1">Cảng Sa Kỳ đến đảo Lý Sơn</option>
+                      <option value="location2">Đảo Lý Sơn về cảng Sa Kỳ</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-6 col-xs-12 padding8">
+                  <div class="form-group"> <span class="fas fa-map-marker-alt"></span>
+                    <select class="custom-select select-big pl32 txt-14">
+                      <option selected="">Địa điểm đến (tỉnh, thành phố)</option>
                       <option value="location1">Cảng Sa Kỳ đến đảo Lý Sơn</option>
                       <option value="location2">Đảo Lý Sơn về cảng Sa Kỳ</option>
                     </select>
@@ -189,21 +150,21 @@ a.btn-action {
                     <input class="form-control" type="text" id="datepicker" autocomplete="off" placeholder="Ngày đi">
                   </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 padding8">
-                  <div class="form-group"><span class="far fa-calendar-alt"></span>
+                <div class="col-lg-2 col-md-12 col-sm-6 col-xs-12 padding8">
+                  <div class="form-group"> <span class="fas fa-map-marker-alt"></span>
                     <select class="custom-select select-big pl32 txt-14">
-                      <option selected="">Số ghế</option>
-                      <option value="location1">01 ghế</option>
-                      <option value="location2">02 ghế</option>
-                      <option value="location3">03 ghế</option>
-                      <option value="location4">04 ghế</option>
-                      <option value="location5">05 ghế</option>
+                      <option selected="">Thuê xe</option>
+                      <option value="location1">Nguyên xe</option>
+                      <option value="location2">1 Chỗ</option>
+                      <option value="location2">2 Chỗ</option>
+                      <option value="location2">3 Chỗ</option>
+                      <option value="location2">4 Chỗ</option>
                     </select>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-6 col-xs-12 padding8">
+                <div class="col-lg-2 col-md-12 col-sm-6 col-xs-12 padding8">
                   <div class="form-group">
-                    <button class="btn btn-primary btn-lg btn-grad" type="submit">Search</button>
+                    <a href="tim-xe.html"><button class="btn btn-primary btn-lg btn-grad" href="tim-xe.html" type="submit">Tìm kiếm</button></a>
                   </div>
                 </div>
               </div>
@@ -220,38 +181,204 @@ a.btn-action {
   <div class="container ">
     <div class="row">
       <div class="col-md-8 mx-auto text-center mb-5">
-        <h2 class="title text-center">Đặt vé tàu du lịch Lý Sơn dễ dàng</h2>
-        <p>Để du lịch Lý Sơn, các bạn cần đặt trước vé tàu để có thể ra vào đảo. Tại đây chưa đến 5p, các bạn đã có ngay vé tàu của riêng mình để đi du lịch Lý Sơn. Lưu ý nên đặt vé trước 3 ngày để đảm bảo còn vé du lịch</p>
+        <h2 class="title text-center">Đặt xe ké, share xe giá rẻ, đi chung dễ dàng</h2>
+        <p>Để đi du lịch, thay vì chọn nguyên xe, hay đặt xe hợp đồng, thì bây giờ các bạn đã có thể đơn giản tìm thấy tài xế của mình, và bạn đồng hành của mình bằng 1 vài click chuột</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-3">
         <div class="feature-box h-100 text-center px-4 py-5">
           <div class="feature-box-icon"><img class="w-25" src="images/tour/check-mark.svg" alt=""></div>
-          <h3 class="feature-box-title">1. Chọn vé tàu</h3>
-          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet purus</p>
+          <h3 class="feature-box-title">1. Chọn chuyến xe</h3>
+          <p class="feature-box-desc">Để bắt đầu, các bạn sẽ nhập nơi muốn đi, nơi đến ngày đi và hình thức xe, hệ thống của chúng tôi sẽ cho các bạn tất cả thông tin về chuyến xe có trên hệ thống</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature-box h-100 text-center all-text-white bg-grad px-4 py-5 border-radius-3" style="background-color:#5bc9c2!important">
           <div class="feature-box-icon"><img class="w-25" src="images/tour/editor.svg" alt=""></div>
-          <h3 class="feature-box-title">2. Điền thông tin</h3>
-          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet</p>
+          <h3 class="feature-box-title">2. Chọn tài xế</h3>
+          <p class="feature-box-desc">Các bạn lựa chọn 1 tài xế phù hợp với mình, và giá của mỗi chuyến xe được công khai rõ ràng trên hệ thống, các bạn không cần phải trả thêm bất kỳ cước phí gì khác</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature-box h-100 text-center px-4 py-5">
           <div class="feature-box-icon"><img class="w-25" src="images/tour/envelope.svg" alt=""></div>
-          <h3 class="feature-box-title">3. Thanh toán</h3>
-          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet </p>
+          <h3 class="feature-box-title">3. Liên hệ tài xế</h3>
+          <p class="feature-box-desc">Sau khi chọn 1 chuyến xe phù hợp, các bạn sẽ liên hệ với tài xế bằng số điện thoại, Zalo hoặc chat messenger Facebook, để hẹn giờ đưa đón</p>
         </div>
       </div>
       <div class="col-md-3">
         <div class="feature-box h-100 text-center all-text-white bg-grad px-4 py-5 border-radius-3">
           <div class="feature-box-icon"><img class="w-25" src="images/tour/editor.svg" alt=""></div>
-          <h3 class="feature-box-title">4. Nhận vé Online</h3>
-          <p class="feature-box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum, eros eu tristique dictum, neque lorem laoreet</p>
+          <h3 class="feature-box-title">4. Lên xe và trải nghiệm</h3>
+          <p class="feature-box-desc">Đúng thời gian hẹn, tài xế sẽ đến và đưa đón các bạn đi ké hoặc đi chung cùng những hành khách khác. Tất cả tài xế trên hệ thống điều đã được xác minh</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Khách sạn -->
+<section class="bg-light pt40 pb60 solutions bg-grad" style="background-color:#5bc9e2!important;">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-8">
+        <p class="subtitle text-secondary nopadding">Các chuyến đi phổ biến</p>
+        <h1 class="paddtop1 font-weight lspace-sm">Các chuyến đi phổ biến tại IZICAR</h1>
+      </div>
+      <div class="col-md-4 d-lg-flex align-items-center justify-content-end"><a href="" class="blist text-sm ml-2"> See all Hotels<i class="fas fa-angle-double-right ml-2"></i></a></div>
+    </div>
+    <div class="row">
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- Chuyến xe phổ biến -->
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span class="float-right"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người
+                <span class="primary-color float-right">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Giới thiệu công ty -->
+<section class="service pt30 pb10 service-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8 mx-auto">
+        <div class="title text-center">
+          <h2>Giới thiệu nền tảng đặt xe ké Izicar</h2>
+          <p class="mb-0">Đặt xe ké IZICAR là một diễn đàn kết nối các tài xế có chuyến đi, và các hành khách cần book xe. Hệ thống chỉ cho phép các tài xế đăng xe đi ké, hoặc xe quay đầu với giá rẻ hơn so với thị trường, nhằm để hành khách có thể tiết kiệm tối đa</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mt-30">
+        <div class="featureBox icon-grad h-100">
+          <div class="feature-box-icon"><i class="fas fa-route"></i></div>
+          <h3 class="feature-box-title">Đưa đón tận nới</h3>
+          <p class="feature-box-desc">Xe đưa đón tận nơi là xe đưa đón quý khách tại điểm đến và đến điểm đi theo yêu cầu của quý khách. Trước khi bắt đầu chuyến đi, các bán sẽ thỏa thuận với tài xế về nơi đưa đón. Lưu ý các bạn không cần phải trả thêm phí gì ngoài tiền thanh toán trên hệ thống</p>
+          <a class="mt-3" href="#">Xem Chi tiết!</a> </div>
+      </div>
+      <div class="col-md-4 mt-30">
+        <div class="featureBox icon-grad h-100">
+          <div class="feature-box-icon"><i class="fab fa-avianex"></i></div>
+          <h3 class="feature-box-title">Bao nguyên xe</h3>
+          <p class="feature-box-desc">Hệ thống xe du lịch 16 - 25 chỗ, chuyên đưa đón các đoàn du lịch thăm quan các địa điểm chính trên đảo Lý Sơn, tại đây có hướng dẫn viên du lịch, sẽ cho quý khách thêm nhiều kiến thức về huyện đảo và lịch sử khám phá bảo vệ biển đảo của dân tộc Việt Nam</p>
+          <a class="mt-3" href="#">Xem chi tiết!</a> </div>
+      </div>
+      <div class="col-md-4 mt-30">
+        <div class="featureBox icon-grad h-100">
+          <div class="feature-box-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3 class="feature-box-title">Đặt xe đi chung</h3>
+          <p class="feature-box-desc">Hệ thống đặt vé tàu đi từ cảng Sa Kỳ đến đảo Lý Sơn Online, In vé điện tử, gửi về điện thoại. Ngoài ra còn cung cấp vé đi từ Đảo Lớn Sang đảo bé, Giá cả niêm yết, đi theo đoàn từ 10 người trở lên liên hệ với chúng tôi để được bố trí vé và giảm giá</p>
+          <a class="mt-3" href="#">Xem chi tiết!</a> </div>
       </div>
     </div>
   </div>
@@ -260,13 +387,12 @@ a.btn-action {
 <!-- Cẩm nang du lịch Lý Sơn -->
 <section class="bg-light pt40 pb60 solutions bg-grad" style="background-color:#5bc9e2!important;">
   <div class="container">
-  	<p class="title-small">NHỮNG ĐIỀU CẦN BIẾT</p>
-  	<h1 class="title-big text-center">Khi tham quan đảo Lý Sơn</h2>
+  	<p class="title-small">Tại sao nên lựa chọn</p>
+  	<h1 class="title-big text-center">Izicar hệ thống book xe du lịch giá rẻ</h1>
     <div class="row pb20 pt30">
       <div class="col-md-7 mb-5 my-auto">
-        <h2 class="txt-30 pb10">1. Tham quan đảo Lý Sơn</h2>
-        <p class="pb10">Lý Sơn là 1 huyện đảo thuộc tỉnh quảng Ngãi, đảo lý Sơn nằm cách đất liền 30 Hải Lý, các bạn có thể bắt tàu đi đảo Lý Sơn tại cảng Sa Kỳ, quảng Ngãi</p>
-        <p class="pb10"> Lý Sơn có 2 đảo chính: đảo Lớn và đảo Bé. Đảo Lớn (đảo chính, gọi chung là Lý Sơn nhé) nơi tàu từ cảng Sa Kỳ (Quảng Ngãi) sẽ cập cảng, gồm có 2 thôn: thôn Đông, thôn Tây. Các điểm tham quan chính ở Lý Sơn, đảo Bé để tắm và lặn ngắm san hô. Tháng 4,5 là mùa cao điểm ở đây. Thời tiết đẹp, thuận lợi cho lặn ngắm san hô. Đồng nghĩa với việc bạn phải đặt phòng và vé tàu trước khoảng 1 tuần.</p>
+        <h2 class="txt-30 pb10">1. Đội ngũ tài xế, hãng xe đa dạng, uy tín.</h2>
+        <p class="pb10">IZICAR chúng tôi hoạt động trên nguyên tắc, tiết kiệm cho hành khách và bảo vệ môi trường. Đội ngũ các tài xế , lái xe, các công ty taxi du lịch trên hệ thống, điều được xác minh giấy tờ kỹ càng trước khi được đăng lên hệ thống, nên các bạn có thể yên tâm về chất lượng đội ngũ tài xế trên hệ thống</p>
       </div>
       <div class="col-md-5 mx-md-auto align-self-center my-auto">
 		<img class="rounded" src="images/cong-to-vo.jpg" alt="">
@@ -281,24 +407,34 @@ a.btn-action {
 		<img class="rounded" src="images/bien-ly-son.jpg" alt="">
 	  </div>
       <div class="col-md-7 mb-5 my-auto">
-        <h2 class="txt-30 pb10">2. Các địa điểm check-in lý tưởng tại Lý Sơn</h2>
-        <p class="pb10">Lý Sơn là 1 huyện đảo thuộc tỉnh quảng Ngãi, đảo lý Sơn nằm cách đất liền 30 Hải Lý, các bạn có thể bắt tàu đi đảo Lý Sơn tại cảng Sa Kỳ, quảng Ngãi</p>
-        <p class="pb10"> Lý Sơn có 2 đảo chính: đảo Lớn và đảo Bé. Đảo Lớn (đảo chính, gọi chung là Lý Sơn nhé) nơi tàu từ cảng Sa Kỳ (Quảng Ngãi) sẽ cập cảng, gồm có 2 thôn: thôn Đông, thôn Tây. Các điểm tham quan chính ở Lý Sơn, đảo Bé để tắm và lặn ngắm san hô. Tháng 4,5 là mùa cao điểm ở đây. Thời tiết đẹp, thuận lợi cho lặn ngắm san hô. Đồng nghĩa với việc bạn phải đặt phòng và vé tàu trước khoảng 1 tuần.</p>
+        <h2 class="txt-30 pb10">2. Cùng đặt xe share giá tiền tiết kiệm</h2>
+        <p class="pb10">Để có 1 chuyến đi thoải mái, và tiết kiệm, các bạn hãy sử dụng các chuyến xe trên izicar, cùng nhau đi chung xe, kết thêm bạn mới và giảm kinh phí và bảo vệ môi trường</p>
+        <p class="pb10">Hệ thống hoạt động hoàn toàn miễn phí, không thu phí trung gian, không thu tiền của khách hàng, khách hàng và tài xế sẽ dựa vào giá trên hệ thống để thanh toán, và thực hiện chuyến đi</p>
       </div>
     </div>
 
 
     <div class="row pt30">
       <div class="col-md-7 mx-auto mb-5">
-        <h2 class="txt-30 pb10">3. Hướng dẫn cách đi ra đảo Lý Sơn</h2>
-        <p class="pb10">Đảo Lý Sơn NẰm ccsh đát liền 30km, vì vậy để di chuyển ra đảo Lý Sơn chúng ta có thể lựa chọn các phương án sau đây để tiết kiệm chi phí và rẻ nhất có thể</p>
-        <p>1. Các bạn di chuyển bằng máy bay, xe buýt đường dài hoặc tàu hỏa đến các nhà ga và sân bay gần với tỉnh Quảng Ngãi. Các sân bay có thể di chuyển đến chính là sân bay Chu Lai, Sân Bay Đà Nẵng, Tp Đà Nẵng, Tp Hội An, Tp Quảng Ngãi.</p>
+        <h2 class="txt-30 pb10">3. Hình thức đặt xe giữ chỗ đơn giản</h2>
+        <p class="pb10">Đi xe đơn giản, chỉ trong vòng 5 phút các bạn sẽ có hết toàn bộ thông tin cho chuyến đi của mình và book được xe. Hệ thống đánh giá tài xế uy tín, trên hệ thống chúng tôi chỉ giữ lại các tài xế uy tín, còn những tài xế kém uy tín, như bỏ xe, bỏ khách, chúng tôi sẽ khóa ngay account</p>
         <p>2. Sau khi đến các nhà ga và sân bay gần với tỉnh Quảng Ngãi, các bạn thuê xe taxi, xe khách, xe buýt, hoặc đi ghép xe đến cảng Sa Kỳ tỉnh Quảng Ngãi</p>
       	<p>3. Các bạn checkin vé tàu và lên tàu đi từ cảng Sa Kỳ đến đảo Lý Sơn. Vì du lịch Lý Sơn đang rất được ưa chuộng, nên các bạn lưu ý nhớ đặt vé tàu trước khi đến cảng Sa Kỳ</p>
       </div>
       <div class="col-md-5 mx-md-auto align-self-center my-auto">
-		<img class="rounded" src="images/hinh-anh-ly-son.jpg" alt="">
-	  </div>
+		    <img class="rounded" src="images/hinh-anh-ly-son.jpg" alt="">
+	    </div>
+    </div>
+
+    <div class="row pb20">
+      <div class="col-md-5 mx-md-auto align-self-center my-auto">
+    <img class="rounded" src="images/bien-ly-son.jpg" alt="">
+    </div>
+      <div class="col-md-7 mb-5 my-auto">
+        <h2 class="txt-30 pb10">4. Cách thức đặt đơn giản</h2>
+        <p class="pb10">Lý Sơn là 1 huyện đảo thuộc tỉnh quảng Ngãi, đảo lý Sơn nằm cách đất liền 30 Hải Lý, các bạn có thể bắt tàu đi đảo Lý Sơn tại cảng Sa Kỳ, quảng Ngãi</p>
+        <p class="pb10"> Lý Sơn có 2 đảo chính: đảo Lớn và đảo Bé. Đảo Lớn (đảo chính, gọi chung là Lý Sơn nhé) nơi tàu từ cảng Sa Kỳ (Quảng Ngãi) sẽ cập cảng, gồm có 2 thôn: thôn Đông, thôn Tây. Các điểm tham quan chính ở Lý Sơn, đảo Bé để tắm và lặn ngắm san hô. Tháng 4,5 là mùa cao điểm ở đây. Thời tiết đẹp, thuận lợi cho lặn ngắm san hô. Đồng nghĩa với việc bạn phải đặt phòng và vé tàu trước khoảng 1 tuần.</p>
+      </div>
     </div>
 </section>
 
@@ -307,8 +443,8 @@ a.btn-action {
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-8">
-        <p class="subtitle text-secondary nopadding">TÀU ĐƯA ĐÓN LÝ SƠN SA KỲ</p>
-        <h1 class="paddtop1 font-weight lspace-sm">Các hãng tàu dịch vụ đưa đón Sa Kỳ Lý Sơn</h1>
+        <p class="subtitle text-secondary nopadding">Các loại xe tại IZICAR</p>
+        <h1 class="paddtop1 font-weight lspace-sm">Các hình thức chọn xe tại IZICAR</h1>
       </div>
       <div class="col-md-4 d-lg-flex align-items-center justify-content-end"><a href="" class="blist text-sm ml-2">Đặt vé tàu ngay<i class="fas fa-angle-double-right ml-2"></i></a></div>
     </div>
@@ -320,32 +456,18 @@ a.btn-action {
           
           <div class="swiper-slide h-auto px-2">
             <div class="listing-item ">
-              <article class="TravelGo-category-listing fl-wrap">
-                <div class="TravelGo-category-img"> <a href="hotel-detailed.html"><img src="images/cruises/6.jpg" alt=""></a>
-                  <div class="TravelGo-category-opt">
-                    <div class="listing-rating card-popup-rainingvis" data-starrating2="5"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-                    <div class="rate-class-name">
-                      <div class="score"><strong>Rất tốt</strong>27 Reviews </div>
-                      <span>5.0</span> </div>
+              <div class="col-12">
+                <div class="listroBox">
+                  <figure>
+                    <img src="images/hotels/room2.jpg" class="img-fluid" alt="" >
+                  </figure>
+                  <div class="listroBoxmain">
+                    <h3><a href="hotel-detailed.html">Phân loại các hình</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+                    <a class="address" href="">Get directions</a>
                   </div>
                 </div>
-                <div class="TravelGo-category-content fl-wrap title-sin_item">
-                  <div class="TravelGo-category-content-title fl-wrap">
-                    <div class="TravelGo-category-content-title-item">
-                      <h3 class="title-sin_map"><a href="hotel-detailed.html">Tàu Super Biển đông</a></h3>
-                      <div class="TravelGo-category-location fl-wrap"><a href="#" class="map-item"><i class="fas fa-map-marker-alt"></i> Cảng Sa Kỳ, Tỉnh Quảng Ngãi</a> <span>30km/h</span> </div>
-                    </div>
-                  </div>
-                  <p>Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales.</p>
-				  <ul class="facilities-list fl-wrap">
-                    <li><i class="fas fa-wifi"></i><span>Free WiFi</span></li>
-                    <li><i class="fas fa-parking"></i><span>Parking</span></li>
-                    <li><i class="fas fa-smoking-ban"></i><span>Non-smoking Rooms</span></li>
-                    <li><i class="fas fa-utensils"></i><span> Restaurant</span></li>
-                    <span style="float:right;"><button class="btn btn-primary btn-md btn-grad" type="submit">Chi tiết</button></span>
-                  </ul>
-                </div>
-              </article>
+              </div>
             </div>
           </div>
            <div class="swiper-slide h-auto px-2">
@@ -367,7 +489,7 @@ a.btn-action {
                     </div>
                   </div>
                   <p>Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales.</p>
-				  <ul class="facilities-list fl-wrap">
+          <ul class="facilities-list fl-wrap">
                     <li><i class="fas fa-wifi"></i><span>Free WiFi</span></li>
                     <li><i class="fas fa-parking"></i><span>Parking</span></li>
                     <li><i class="fas fa-smoking-ban"></i><span>Non-smoking Rooms</span></li>
@@ -397,7 +519,7 @@ a.btn-action {
                     </div>
                   </div>
                   <p>Sed interdum metus at nisi tempor laoreet. Integer gravida orci a justo sodales.</p>
-				  <ul class="facilities-list fl-wrap">
+                  <ul class="facilities-list fl-wrap">
                     <li><i class="fas fa-wifi"></i><span>Free WiFi</span></li>
                     <li><i class="fas fa-parking"></i><span>Parking</span></li>
                     <li><i class="fas fa-smoking-ban"></i><span>Non-smoking Rooms</span></li>
@@ -414,50 +536,13 @@ a.btn-action {
     </div>
   </div>
 </section>
-
-<!-- Giới thiệu công ty -->
-<section class="service pt30 pb10 service-home">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8 mx-auto">
-        <div class="title text-center">
-          <h2>Giới thiệu hệ thống booking Đảo Lý Sơn</h2>
-          <p class="mb-0">Lyson24h là hệ thống booking vé online và các tiện ích trên đảo Lý Sơn. Tại đây các bạn có thể tìm thấy các thông tin bổ ích nhất về du lịch tại đảo Lý Sơn, đặt vé tàu Online, xem thông tin khách sạn, và thuê xe du lịch trên và ngoài đảo</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 mt-30">
-        <div class="featureBox icon-grad h-100">
-          <div class="feature-box-icon"><i class="fas fa-route"></i></div>
-          <h3 class="feature-box-title">Xe đưa đón tận nơi</h3>
-          <p class="feature-box-desc">Hệ thống xe ô tô đời mới sang trọng đưa đón quý khách tận nơi từ nhà ga sân bay đến cảng Sa Kỳ, giá cả công khai, và rẻ nhất thị trường. Xe du lịch, xe ghép 4, 5, 7 chỗ đi từ Các sân bay Chu Lai Đà Nẵng, Hội An, Quảng Ngãi đến cảng Sa Kỳ tỉnh Quảng Ngãi</p>
-          <a class="mt-3" href="#">Xem Chi tiết!</a> </div>
-      </div>
-      <div class="col-md-4 mt-30">
-        <div class="featureBox icon-grad h-100">
-          <div class="feature-box-icon"><i class="fab fa-avianex"></i></div>
-          <h3 class="feature-box-title">Đưa đón thăm quan đảo</h3>
-          <p class="feature-box-desc">Hệ thống xe du lịch 16 - 25 chỗ, chuyên đưa đón các đoàn du lịch thăm quan các địa điểm chính trên đảo Lý Sơn, tại đây có hướng dẫn viên du lịch, sẽ cho quý khách thêm nhiều kiến thức về huyện đảo và lịch sử khám phá bảo vệ biển đảo của dân tộc Việt Nam</p>
-          <a class="mt-3" href="#">Xem chi tiết!</a> </div>
-      </div>
-      <div class="col-md-4 mt-30">
-        <div class="featureBox icon-grad h-100">
-          <div class="feature-box-icon"><i class="fas fa-bullhorn"></i></div>
-          <h3 class="feature-box-title">Đặt vé tàu, cano Online</h3>
-          <p class="feature-box-desc">Hệ thống đặt vé tàu đi từ cảng Sa Kỳ đến đảo Lý Sơn Online, In vé điện tử, gửi về điện thoại. Ngoài ra còn cung cấp vé đi từ Đảo Lớn Sang đảo bé, Giá cả niêm yết, đi theo đoàn từ 10 người trở lên liên hệ với chúng tôi để được bố trí vé và giảm giá</p>
-          <a class="mt-3" href="#">Xem chi tiết!</a> </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- Tin Quảng Cáo -->
 <section class="bg-light pt30 pb20 solutions bg-grad">
   <div class="container">
     <div class="row">
       <div class="col-md-8 text-center mx-auto mb-5">
-        <h2 class="title">Đảo Lý Sơn, Madive của Việt Nam</h2>
-        <p>Thiên đường biển, đảo hoang dã và tự nhiên tại Việt Nam, được bình chọn là 1 trong những bãi biển đẹp nhất Việt Nam, hãy đến với Lý Sơn, các bạn sẽ có những kỷ niệm đáng nhớ</p>
+        <h2 class="title">IZICAR.VN Hệ Thống đặt xe ké số 1</h2>
+        <p>Hệ thống đặt xe hoàn toàn miễn phí, kết nối tài xế lái xe đường dài với các khách hàng, mục tiêu share xe, share tiền để tiết kiệm chi phí và giảm thiểu ô nhiễm môi trường</p>
       </div>
   	</div>
   </div>
@@ -468,137 +553,77 @@ a.btn-action {
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-8">
-        <p class="subtitle text-secondary nopadding">Khách sạn trên đảo Lý Sơn</p>
-        <h1 class="paddtop1 font-weight lspace-sm">Thông tin khách sạn</h1>
+        <p class="subtitle text-secondary nopadding">Các chuyến đi phổ biến</p>
+        <h1 class="paddtop1 font-weight lspace-sm">Các chuyến đi phổ biến tại IZICAR</h1>
       </div>
       <div class="col-md-4 d-lg-flex align-items-center justify-content-end"><a href="" class="blist text-sm ml-2"> See all Hotels<i class="fas fa-angle-double-right ml-2"></i></a></div>
     </div>
     <div class="row">
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room5.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room1.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room2.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room7.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room8.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- Chuyến xe phổ biến -->
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        <div class="listroBox">
-          <figure> <a href="hotel-detailed.html" class="wishlist_bt"></a> <a href="hotel-detailed.html"><img src="images/hotels/room6.jpg" class="img-fluid" alt="" >
-            <div class="read_more"><span>Read more</span></div>
-            </a> </figure>
-          <div class="listroBoxmain">
-            <h3><a href="hotel-detailed.html">Modern, Well-Appointed Room</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-            <a class="address" href="">Get directions</a> </div>
-          <ul>
-            <li>
-              <p class="card-text text-muted"><span class="h4 text-primary">$80</span> / night</p>
-            </li>
-            <li>
-              <div class="R_retings">
-                <div class="list-rat-ch list-room-rati"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <a href="">
+          <div class="listroBox">
+            <div class="listroBoxmain">
+              <h2>TP Đà Nẵng » Quảng Ngãi<span style="float:right;"><i class="fas fa-search"></i></span></h2>
+              <p class="card-text text-muted"><span class="h4 text-primary">160,000</span>/người<span class="primary-color" style="float:right"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="false"></i></span></p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -620,7 +645,7 @@ a.btn-action {
             <img src="images/logo-footer.png" > 
             <!-- SVG Logo End --> 
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Hệ thống tìm kiếm xe ké, đi chung xe, tại Việt Nam, Đặt xe dễ dàng, kiếm thêm bạn mới và giảm thiểu ô nhiễm môi trường là phương châm làm việc của chúng tôi</p>
           </div>
         </div>
         <!-- Footer widget 2 -->
@@ -628,11 +653,11 @@ a.btn-action {
           <div class="widget">
             <h6>Các tiện ích</h6>
             <ul class="nav flex-column">
-              <li class="nav-item"><a class="nav-link" href="">Đặt vé tàu</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Thuê xe</a></li>
-              <li class="nav-item"><a class="nav-link" href="index.html">Đặt khách sạn</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Đặt xe tham quan đảo</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Đặt cano đi đảo bé</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Hướng dẫn đặt xe</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Hướng dẫn làm tài xế</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Tìm xe</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Liên hệ hợp tác</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Chăm sóc tư vấn khách hàng</a></li>
             </ul>
           </div>
         </div>
@@ -646,7 +671,7 @@ a.btn-action {
         <div class="col-md-3 col-sm-6 order-sm-2">
           <div class="widget address">
             <ul class="list-unstyled">
-              <li class="media mb-3"><i class="fas fa-map-marked-alt mr-3 display-8"></i>216 Coburn Shahi Road Mumbai, Near Center Road, IL 54785. </li>
+              <li class="media mb-3"><i class="fas fa-map-marked-alt mr-3 display-8"></i>121 Cù Chính Lan, TP Đà Nẵng, Việt Nam</li>
               <li class="media mb-3"><i class="mr-3 display-8 fas fa-headphones-alt"></i> (547) 457-5757 </li>
               <li class="media mb-3"><i class="mr-3 display-8 far fa-envelope"></i> help@travelGo.com</li>
               <li class="media mb-3"><i class="mr-3 display-8 far fa-clock"></i>
@@ -679,13 +704,19 @@ a.btn-action {
 <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
 <script src="js/jquery.min.js" type="text/javascript"></script> 
 <script src="js/popper.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/functions.js" type="text/javascript"></script> 
+<!--
 <script src="js/owl.carousel.min.js" type="text/javascript"></script> 
-<script src="js/slick.js" type="text/javascript"></script> 
+<script src="js/slick.js" type="text/javascript"></script>
+-->
 <script src="js/swiper.min.js" type="text/javascript"></script> 
+<!--
 <script src="js/main.js" type="text/javascript"></script> 
+-->
+<!--
 <script src="js/jquery.fancybox.min.js" type="text/javascript"></script> 
+-->
 <script src="js/bootstrap-datepicker.min.js" type="text/javascript"></script> 
 <script src="js/jquery-ui.min.js" type="text/javascript"></script>
 </body>
